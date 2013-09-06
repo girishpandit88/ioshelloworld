@@ -56,8 +56,8 @@
 		6FEF564717A204D2009064E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FEF564917A204D2009064E0 /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		6FEF564A17A204D2009064E0 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
-		7C76DBA817DA26DC00AB97F5 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HelloWorld.app; path = "/Users/allplay/Documents/GitHub/ioshelloworld/build/Release-iphoneos/HelloWorld.app"; sourceTree = "<absolute>"; };
-		7C76DBA917DA26DC00AB97F5 /* HelloWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HelloWorldTests.octest; path = "/Users/allplay/Documents/GitHub/ioshelloworld/build/Release-iphoneos/HelloWorldTests.octest"; sourceTree = "<absolute>"; };
+		7C3A364717DA29A60000B08B /* HelloWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HelloWorldTests.octest; path = "/Users/allplay/Documents/GitHub/ioshelloworld/build/Release-iphoneos/HelloWorldTests.octest"; sourceTree = "<absolute>"; };
+		7C3A364817DA2C5E0000B08B /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,7 @@
 				6FEF561F17A204D2009064E0 /* HelloWorld */,
 				6FEF564317A204D2009064E0 /* HelloWorldTests */,
 				6FEF561817A204D2009064E0 /* Frameworks */,
+				7C3A364817DA2C5E0000B08B /* HelloWorld.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,7 +168,7 @@
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
-			productReference = 7C76DBA817DA26DC00AB97F5 /* HelloWorld.app */;
+			productReference = 7C3A364817DA2C5E0000B08B /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6FEF563B17A204D2009064E0 /* HelloWorldTests */ = {
@@ -186,7 +187,7 @@
 			);
 			name = HelloWorldTests;
 			productName = HelloWorldTests;
-			productReference = 7C76DBA917DA26DC00AB97F5 /* HelloWorldTests.octest */;
+			productReference = 7C3A364717DA29A60000B08B /* HelloWorldTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
