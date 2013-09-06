@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F457CDF17A33A26008DBF32 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F457CDB17A33A26008DBF32 /* libTestFlight.a */; };
-		6F457CE017A33A26008DBF32 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F457CDC17A33A26008DBF32 /* README.md */; };
-		6F457CE117A33A26008DBF32 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F457CDD17A33A26008DBF32 /* release_notes.md */; };
 		6FEF561A17A204D2009064E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEF561917A204D2009064E0 /* UIKit.framework */; };
 		6FEF561C17A204D2009064E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEF561B17A204D2009064E0 /* Foundation.framework */; };
 		6FEF561E17A204D2009064E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEF561D17A204D2009064E0 /* CoreGraphics.framework */; };
@@ -39,11 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F457CDB17A33A26008DBF32 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = ../../Downloads/TestFlight/libTestFlight.a; sourceTree = "<group>"; };
-		6F457CDC17A33A26008DBF32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../Downloads/TestFlight/README.md; sourceTree = "<group>"; };
-		6F457CDD17A33A26008DBF32 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = release_notes.md; path = ../../Downloads/TestFlight/release_notes.md; sourceTree = "<group>"; };
-		6F457CDE17A33A26008DBF32 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = ../../Downloads/TestFlight/TestFlight.h; sourceTree = "<group>"; };
-		6FEF561617A204D2009064E0 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HelloWorld.app; path = "/Users/girishpandit/Desktop/HelloWorld/build/Release-iphoneos/HelloWorld.app"; sourceTree = "<absolute>"; };
 		6FEF561917A204D2009064E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6FEF561B17A204D2009064E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FEF561D17A204D2009064E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +51,13 @@
 		6FEF563217A204D2009064E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6FEF563417A204D2009064E0 /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		6FEF563517A204D2009064E0 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
-		6FEF563C17A204D2009064E0 /* HelloWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HelloWorldTests.octest; path = "/Users/girishpandit/Desktop/HelloWorld/build/Release-iphoneos/HelloWorldTests.octest"; sourceTree = "<absolute>"; };
 		6FEF563D17A204D2009064E0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		6FEF564517A204D2009064E0 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		6FEF564717A204D2009064E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FEF564917A204D2009064E0 /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		6FEF564A17A204D2009064E0 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		7C76DBA817DA26DC00AB97F5 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HelloWorld.app; path = "/Users/allplay/Documents/GitHub/ioshelloworld/build/Release-iphoneos/HelloWorld.app"; sourceTree = "<absolute>"; };
+		7C76DBA917DA26DC00AB97F5 /* HelloWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HelloWorldTests.octest; path = "/Users/allplay/Documents/GitHub/ioshelloworld/build/Release-iphoneos/HelloWorldTests.octest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +68,6 @@
 				6FEF561A17A204D2009064E0 /* UIKit.framework in Frameworks */,
 				6FEF561C17A204D2009064E0 /* Foundation.framework in Frameworks */,
 				6FEF561E17A204D2009064E0 /* CoreGraphics.framework in Frameworks */,
-				6F457CDF17A33A26008DBF32 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +87,6 @@
 		6FEF560D17A204D2009064E0 = {
 			isa = PBXGroup;
 			children = (
-				6F457CDB17A33A26008DBF32 /* libTestFlight.a */,
-				6F457CDC17A33A26008DBF32 /* README.md */,
-				6F457CDD17A33A26008DBF32 /* release_notes.md */,
-				6F457CDE17A33A26008DBF32 /* TestFlight.h */,
 				6FEF561F17A204D2009064E0 /* HelloWorld */,
 				6FEF564317A204D2009064E0 /* HelloWorldTests */,
 				6FEF561817A204D2009064E0 /* Frameworks */,
@@ -179,7 +167,7 @@
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
-			productReference = 6FEF561617A204D2009064E0 /* HelloWorld.app */;
+			productReference = 7C76DBA817DA26DC00AB97F5 /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6FEF563B17A204D2009064E0 /* HelloWorldTests */ = {
@@ -198,7 +186,7 @@
 			);
 			name = HelloWorldTests;
 			productName = HelloWorldTests;
-			productReference = 6FEF563C17A204D2009064E0 /* HelloWorldTests.octest */;
+			productReference = 7C76DBA917DA26DC00AB97F5 /* HelloWorldTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -239,8 +227,6 @@
 				6FEF562E17A204D2009064E0 /* Default@2x.png in Resources */,
 				6FEF563017A204D2009064E0 /* Default-568h@2x.png in Resources */,
 				6FEF563317A204D2009064E0 /* MainStoryboard.storyboard in Resources */,
-				6F457CE017A33A26008DBF32 /* README.md in Resources */,
-				6F457CE117A33A26008DBF32 /* release_notes.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
