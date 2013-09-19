@@ -200,6 +200,11 @@
 				CLASSPREFIX = HelloWorld;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Girish Pandit";
+				TargetAttributes = {
+					6FEF561517A204D2009064E0 = {
+						DevelopmentTeam = 7TY2SGRF49;
+					};
+				};
 			};
 			buildConfigurationList = 6FEF561117A204D2009064E0 /* Build configuration list for PBXProject "HelloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -374,9 +379,11 @@
 		6FEF564F17A204D2009064E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/TestFlight\"",
@@ -389,9 +396,11 @@
 		6FEF565017A204D2009064E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/TestFlight\"",

@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8DD51C81-B8A1-4EC8-9E04-42D7E2B4F1C8</string>
+	<string>653B416E-0857-496E-8DA8-915AA352B53F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>HelloWorld</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8C56297A-F429-4286-A169-4091191F1385</key>
+		<key>4001972F-66DD-4522-B603-6530396A765B</key>
 		<string>https://github.com/girishpandit88/ioshelloworld.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HelloWorld.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8C56297A-F429-4286-A169-4091191F1385</key>
+		<key>4001972F-66DD-4522-B603-6530396A765B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8C56297A-F429-4286-A169-4091191F1385</string>
+	<string>4001972F-66DD-4522-B603-6530396A765B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8C56297A-F429-4286-A169-4091191F1385</string>
+			<string>4001972F-66DD-4522-B603-6530396A765B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ioshelloworld</string>
 		</dict>
