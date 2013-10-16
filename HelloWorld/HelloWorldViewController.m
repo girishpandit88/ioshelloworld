@@ -37,7 +37,7 @@
         nameString = @"World";
     }
     
-    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+    NSString *greeting = [[NSString alloc] initWithFormat:@"Bonjour, %@!", nameString];
     
     self.label.text = greeting;
 }
